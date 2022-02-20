@@ -1,0 +1,247 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: ;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body {
+  font-family: Verdana;
+  background-color: #98FB98;
+}
+.dws-menu{
+  background-color: white;
+  margin-top: 100px;
+  width: 100%;
+}
+ul.dws-ul{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+li.dws-li {
+  list-style: none;
+  padding: 10px;
+}
+li.dws-li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  position: relative;
+  padding: 10px;
+}
+li.dws-li a i{
+  margin-right: 10px;
+}
+li.dws-li a::before{
+  content: '';
+  width: 0px;
+  height: 3px;
+  background-color: #33bdf1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: .5s;
+  mix-blend-mode: multiply;
+}
+li.dws-li a::after{
+  content: '';
+  width: 0px;
+  height: 3px;
+  background-color: #ff2117;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transition: .5s;
+  mix-blend-mode: multiply;
+}
+li.dws-li:hover{
+  background-color: #e5eae8;
+}
+li.dws-li:hover a::before{
+  width: 50%;
+  transform: translateX(100%);
+}
+li.dws-li:hover a::after{
+  width: 50%;
+  transform: translateX(-100%);
+}
+li.dws-li a:hover{
+  color: #e62117;
+}
+}
+.logo {
+    float: left;
+    height: 10px;
+
+}
+.navin a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 33px;
+    border-radius: 100px;
+}
+
+.fsection {
+    background-image: url("jpeg/Back.jpg");
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.fsection h1 {
+    font-size: 100px;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+.fsection p {
+    font-size: 100px;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+.footer {
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #78A5A3;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+table {
+    margin-top: 45px;
+    background-color: #fff;
+    width: 96%;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 50px;
+    border-radius: 100px;
+    margin-bottom: 45px;
+}
+.lsection {
+    background-image: url("jpeg/BACKGROUND.jpg");
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.lsection p {
+    font-size: 40px;
+    margin-top: 10px;
+    color: whitesmoke;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+label {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+}
+.callout {
+.callout-info
+  border-left-color: #5bc0de;
+.callout-warning
+  border-left-color: #f0ad4e;
+.callout-danger
+  border-left-color: #d9534f;
+}
+
+
+.statistics {
+    background-color: #95e1d3;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat__item {
+    flex: 1 1 0;
+    padding: 70px 25px;
+
+    border-left: 1px solid #b5eae0;
+
+    text-align: center;
+    color: #fff;
+}
+
+.stat__item:last-child {
+    border-right: 1px solid #b5eae0;
+}
+
+.stat__count {
+    margin-bottom: 10px;
+
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+}
